@@ -162,6 +162,7 @@ body {
     }
     .menu-list {
         flex-direction: column;
+        padding-left: 0;
     }
     .list-element, .btn {
         margin-top: 1.2rem;
