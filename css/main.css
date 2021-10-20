@@ -66,7 +66,13 @@ body {
     width: 100vw;
 }
 
+/* .main {
+    background-color: red;
+} */
+
 /* Components */
+
+/* Header */
 
 .header-figure, .header-menu {
     padding-top: 1.2rem;
@@ -142,12 +148,39 @@ body {
     transition: 1s;
 }
 
+/* Presentacion section */
+
+.main-presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentacion-main, .presentacion-second {
+    text-align: center;
+    width: 50rem;
+}
+
+.presentacion-main h2, .presentacion-second h2 {
+    font-weight: var(--txt-mode-bold);
+    font-size: 2.6rem;
+}
+
+.presentacion-main p, .presentacion-second p {
+    text-align: justify;
+}
+
+.presentacion-main i, .presentacion-second i {
+    font-size: 5rem;
+}
+
 /* Media querys only for NAVBAR */
 
 @media (max-width: 1000px) {
     .header-figure {
         justify-content: space-between;
-        width: 100vw;
+        width: 50rem;
     }
     .figure-toggle {
         visibility: visible;
