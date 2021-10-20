@@ -4,7 +4,7 @@
     --color-semi-dark-blue: #2364ac;
     --color-dark-blue-extra: #000;
     --color-light-blue: #a0b2d5;
-    --color-ligth-green: #6ded8f;
+    --color-ligth-green: #26bb4e;
     --color-generic-gray: #707070;
     /* Fonts */
     --txt-nunito-family: 'Nunito', sans-serif;
@@ -126,6 +126,15 @@ body {
     border-radius: 12px;
     padding: 1.2rem;
     width: 18rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-2 {
+    border-radius: 6px;
+    padding: 0.2rem;
+    width: 80%;
+    margin-bottom: 2rem;
 }
 
 .btn-primary {
@@ -140,6 +149,13 @@ body {
     color: var(--color-dark-blue);
 }
 
+.btn-three {
+    background-color: var(--color-ligth-green);
+    font-weight: var(--txt-mode-bold, 700);
+    color: white;
+    text-decoration: none;
+}
+
 .btn-primary:hover {
     background-color: var(--color-semi-dark-blue);
     cursor: pointer;
@@ -151,6 +167,10 @@ body {
     color: white;
     cursor: pointer;
     transition: 1s;
+}
+
+.btn-three:hover {
+    background-color: rgb(2, 136, 2);
 }
 
 /* Presentacion section */
@@ -193,6 +213,30 @@ body {
     font-weight: var(--txt-mode-bold, 700);
     text-align: center;
     color: white;
+}
+
+.talleres-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    margin: 2.5rem auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 0 5px 2px gray;
+    background-color: white;
+}
+
+.card-img {
+    width: 7rem;
+    height: 7rem;
 }
 
 /* Footer */
