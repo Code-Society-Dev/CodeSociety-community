@@ -2,7 +2,7 @@
     /* Colors */
     --color-dark-blue: #5476b5;
     --color-semi-dark-blue: #2364ac;
-    --color-dark-blue-extra: #000c1a;
+    --color-dark-blue-extra: #000;
     --color-light-blue: #a0b2d5;
     --color-ligth-green: #6ded8f;
     --color-generic-gray: #707070;
@@ -35,7 +35,7 @@ html {
 body {
     font-family: var(--txt-nunito-family, sans-serif);
     font-weight: var(--txt-mode-regular, 400);
-    padding: 90px 20px 0;
+    padding: 90px 0 0;
 }
 
 /* Layouts */
@@ -66,9 +66,14 @@ body {
     width: 100vw;
 }
 
-/* .main {
-    background-color: red;
-} */
+.main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footer {
+    background-color: var(--color-dark-blue-extra);
+}
 
 /* Components */
 
@@ -163,7 +168,7 @@ body {
 }
 
 .presentacion-main h2, .presentacion-second h2 {
-    font-weight: var(--txt-mode-bold);
+    font-weight: var(--txt-mode-bold, 700);
     font-size: 2.6rem;
 }
 
@@ -173,6 +178,72 @@ body {
 
 .presentacion-main i, .presentacion-second i {
     font-size: 5rem;
+}
+
+/* Section talleres */
+
+.main-talleres {
+    margin: 4rem -1rem;
+    background: var(--color-light-blue);
+    box-shadow: 0 -10px 2px #b7c4df, 0 -20px 2px #d8dfee, 0 -30px 2px #ebeff6;
+}
+
+.main-talleres h2 {
+    font-size: 3rem;
+    font-weight: var(--txt-mode-bold, 700);
+    text-align: center;
+    color: white;
+}
+
+/* Footer */
+
+.footer {
+    color: white;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-comunidad {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-list {
+    padding-left: 0;
+}
+
+.figure-logo-footer {
+    width: 5rem;
+}
+
+.clist-element {
+    margin-top: 1.2rem;
+}
+
+.container-list, .clist-element a, .footer-socialmedia {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.socialmedia-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia-container i {
+    font-size: 2.5rem;
+    color: white;
 }
 
 /* Media querys only for NAVBAR */
@@ -208,6 +279,16 @@ body {
 @media (max-width: 768px) {
     .header-figure {
         justify-content: space-between;
+    }
+    .footer-container {
+        flex-direction: column-reverse;
+    }
+    .container-figure {
+        display: none;
+    }
+    .container-comunidad {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
     }
 }
 
