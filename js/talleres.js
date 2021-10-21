@@ -35,8 +35,8 @@ talleresArray.forEach(function (singleTallerestObjects) {
         <figure class="card-figure">
             <img class="card-img" loading="lazy" src="${singleTallerestObjects.pictureUrl}" alt="${singleTallerestObjects.imageAlt}">
         </figure>
-        <h4>${singleTallerestObjects.title}</h4>
-        <a href="#equipo" class="btn-2 btn-three">Información</a>
+        <h3>${singleTallerestObjects.title}</h3>
+        <a href="#equipo" class="btn-2 btn-three">Más Información</a>
     </div>
   `;
 });
