@@ -235,7 +235,9 @@ body {
     box-shadow: 0 0 5px 2px gray;
     background-color: white;
 }
-
+.card h3 {
+    margin-top: -1.5rem;
+}
 .card-img {
     width: 7.5rem;
     height: 7.5rem;
