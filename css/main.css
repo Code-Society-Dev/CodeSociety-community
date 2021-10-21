@@ -237,8 +237,8 @@ body {
 }
 
 .card-img {
-    width: 8rem;
-    height: 8rem;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 /* Footer */
@@ -270,6 +270,7 @@ body {
 
 .figure-logo-footer {
     width: 5rem;
+    height: 5rem;
 }
 
 .clist-element {
@@ -343,7 +344,7 @@ body {
         justify-content: space-between;
     }
     .figure-logo {
-        width: 18rem;
+        width: 19rem;
         height: 5rem;
     }
     .figure-toggle {
@@ -353,13 +354,13 @@ body {
 
 @media (max-width: 280px) {
     .header {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .figure-logo {
-        width: 16rem;
+        width: 16.5rem;
         height: 5rem;
     }
     .figure-toggle {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 }
