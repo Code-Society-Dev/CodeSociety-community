@@ -6,13 +6,7 @@ const eventosArray = [{
     },
     {
         id: 2,
-        pictureUrl: "../images/eventos/Daysi.png",
-        imageAlt: "eventos",
-        urlserver: "https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect"
-    },
-    {
-        id: 3,
-        pictureUrl: "../images/eventos/Daysi.png",
+        pictureUrl: "../images/eventos/Jueves.png",
         imageAlt: "eventos",
         urlserver: "https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect"
     }
