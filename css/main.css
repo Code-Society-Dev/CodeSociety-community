@@ -254,7 +254,7 @@ body {
 /* Section talleres */
 
 .main-talleres {
-    margin: 10rem -1rem;
+    margin: 5rem -1rem;
     background: var(--color-light-blue);
     box-shadow: 0 -10px 2px #b7c4df, 0 -20px 2px #d8dfee, 0 -30px 2px #ebeff6;
 }
@@ -299,7 +299,7 @@ body {
 /* Section equipo */
 
 .main-equipo {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     text-align: center;
 }
 
@@ -440,10 +440,13 @@ body {
     .figure-toggle {
         font-size: 2rem;
     }
+    .main-hero h1{
+        font-size: 2.5rem;
+    }
     .hero-img {
         flex-direction: column;
-        width: 32rem;
-        height: 32rem;
+        width: 22rem;
+        height: 22rem;
     }
 }
 
