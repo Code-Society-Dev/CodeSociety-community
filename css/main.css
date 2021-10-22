@@ -173,9 +173,36 @@ body {
     background-color: rgb(2, 136, 2);
 }
 
+/* Section hero */
+
+.main-hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.main-hero h1 {
+    color: var(--color-dark-blue);
+}
+
+.main-hero i {
+    font-size: 5rem;
+    color: var(--color-dark-blue);
+}
+
+.hero-img {
+    margin-top: -3rem;
+    width: 59rem;
+    height: 58rem;
+}
+
 /* Presentacion section */
 
 .main-presentacion {
+    margin-top: 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -206,9 +233,11 @@ body {
     margin-top: 10rem;
     text-align: center;
 }
+
 .main-eventos h2 {
     font-size: 3rem;
 }
+
 .eventos-container {
     display: flex;
     flex-wrap: wrap;
@@ -221,10 +250,11 @@ body {
     height: 30rem;
     border-radius: 12px;
 }
+
 /* Section talleres */
 
 .main-talleres {
-    margin: 4rem -1rem;
+    margin: 10rem -1rem;
     background: var(--color-light-blue);
     box-shadow: 0 -10px 2px #b7c4df, 0 -20px 2px #d8dfee, 0 -30px 2px #ebeff6;
 }
@@ -269,6 +299,7 @@ body {
 /* Section equipo */
 
 .main-equipo {
+    margin-bottom: 10rem;
     text-align: center;
 }
 
@@ -391,6 +422,11 @@ body {
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
+    .hero-img {
+        margin-top: 1rem;
+        width: 35rem;
+        height: 35rem;
+    }
 }
 
 @media (max-width: 380px) {
@@ -403,6 +439,11 @@ body {
     }
     .figure-toggle {
         font-size: 2rem;
+    }
+    .hero-img {
+        flex-direction: column;
+        width: 32rem;
+        height: 32rem;
     }
 }
 
