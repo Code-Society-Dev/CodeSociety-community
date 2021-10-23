@@ -1,4 +1,5 @@
-const eventosArray = [{
+const eventosArray = [
+    {
         id: 1,
         pictureUrl: "../images/eventos/Daysi.png",
         imageAlt: "eventos",
@@ -20,7 +21,7 @@ eventosArray.forEach(function (singleEventostObjects) {
         htmlCode1 +
         `
         <figure class="eventos-figure">
-            <a href="${singleEventostObjects.urlserver}"><img
+            <a target="_blank" href="${singleEventostObjects.urlserver}"><img
                 class="eventos-img" loading="lazy" src="${singleEventostObjects.pictureUrl}" alt="${singleEventostObjects.imageAlt}"></a>
         </figure>
         `;

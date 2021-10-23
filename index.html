@@ -49,6 +49,7 @@
 <body class="container">
     <!-- Header -->
     <header class="header">
+        <nav class="wrapper header-menu">
         <!-- Logo -->
         <figure class="header-figure">
             <img class="figure-logo" loading="lazy" src="images/svg/logotipo.svg"
@@ -57,16 +58,15 @@
             <i class="figure-toggle fas fa-bars" aria-label="Abrir menú"></i>
         </figure>
         <!-- Menu -->
-        <nav class="header-menu">
             <ul class="menu-list">
                 <!-- Inicio -->
-                <li class="list-element"><a href=".">INICIO</a></li>
+                <li class="list-element"><a href=".">Inicio</a></li>
                 <!-- Eventos -->
-                <li class="list-element"><a href="#eventos">EVENTOS</a></li>
+                <li class="list-element"><a href="#eventos">Eventos</a></li>
                 <!-- Talleres -->
-                <li class="list-element"><a href="#talleres">TALLERES</a></li>
+                <li class="list-element"><a href="#talleres">Talleres</a></li>
                 <!-- Equipo -->
-                <li class="list-element"><a href="#equipo">EQUIPO</a></li>
+                <li class="list-element"><a href="#equipo">Equipo</a></li>
                 <!-- Discord -->
                 <a href="https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect" class="btn btn-primary">INICIAR SESIÓN</a>
             </ul>
@@ -76,52 +76,78 @@
     <main class="main">
         <!-- Hero -->
         <section class="main-hero" id="hero">
-          <figure class="hero-figure">
-              <img class="hero-img" loading="lazy" src="images/svg/hero_1.svg" alt="code society, comunidad, equipo, software, cyber seguridad, hacking">
-          </figure>
-          <h1>Adquiere nuevos conocimientos cada semana</h1>
-          <a href="#presentacion"><i class="fas fa-chevron-down"></i></a>
+          <div class="hero-figure">
+              <div class="wrapper hero-figure-content">
+                  <h1>Adquiere nuevos conocimientos cada semana</h1>
+                  <a href="#presentacion">Únete ahora</i></a>
+              </div>
+          </div>
         </section>
         <!-- Presentación -->
-        <section class="main-presentacion" id="presentacion">
-            <div class="presentacion-main">
-                <i class="fas fa-users"></i>
-                <h2>¿Quiénes somos?</h2>
-                <p>Code Society es una comunidad sin fines de lucro que tiene el objetivo de compartir conocimiento
-                    sobre tecnología, innovación y emprendimiento. Dirigido a profesionales con y sin experiencia,
-                    interesados en ingresar al rubro de los servicios digitales. Para ello se brindan charlas, talleres
-                    y se crean grupos de estudio.
-                </p>
-            </div>
-            <div class="presentacion-second">
-                <i class="fas fa-graduation-cap"></i>
-                <h2>¿Por qué enseñamos?</h2>
-                <p>
-                    Code Society tiene la misión de capacitar a la comunidad en diferentes áreas, generando así nuevos,
-                    talentos para la industria del desarrollo de software, marketing digital y diseño gráfico. Contamos
-                    con diferentes grupos de estudio y talleres dentro de la comunidad, donde desarrollamos nuestras
-                    skills
-                    en equipo.
-                </p>
+        <section class="wrapper main-presentacion section" id="presentacion">
+            <div class="cards">
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h2>¿Quiénes somos?</h2>
+                    <p>Code Society es una comunidad sin fines de lucro que tiene el objetivo de compartir conocimiento
+                        sobre tecnología, innovación y emprendimiento. Dirigido a profesionales con y sin experiencia,
+                        interesados en ingresar al rubro de los servicios digitales. Para ello se brindan charlas, talleres
+                        y se crean grupos de estudio.
+                    </p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2>¿Qué te ofrecemos?</h2>
+                    <p>
+                        Code Society tiene la misión de capacitar a la comunidad en diferentes áreas, generando así nuevos,
+                        talentos para la industria del desarrollo de software, marketing digital y diseño gráfico. Contamos
+                        con diferentes grupos de estudio y talleres dentro de la comunidad, donde desarrollamos nuestras
+                        skills
+                        en equipo.
+                    </p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2>¿Por qué enseñamos?</h2>
+                    <p>
+                        Code Society tiene la misión de capacitar a la comunidad en diferentes áreas, generando así nuevos,
+                        talentos para la industria del desarrollo de software, marketing digital y diseño gráfico. Contamos
+                        con diferentes grupos de estudio y talleres dentro de la comunidad, donde desarrollamos nuestras
+                        skills
+                        en equipo.
+                    </p>
+                </div>
             </div>
         </section>
         <!-- Eventos -->
-        <section class=" main-eventos" id="eventos">
-            <h2>Próximos eventos</h2>
+        <section class="wrapper main-eventos section" id="eventos">
+            <div class="title">
+                <div class="line"></div>
+                <h2>Próximos eventos</h2>
+                <div class="line"></div>
+            </div>
             <div class="eventos-container">
                 <!-- JS here -->
             </div>
         </section>
         <!-- Talleres -->
-        <section class="main-talleres" id="talleres">
-            <h2>Talleres :</h2>
+        <section class="wrapper main-talleres section" id="talleres">
+            <div class="title">
+                <div class="line"></div>
+                <h2>Nuestros Talleres</h2>
+                <div class="line"></div>
+            </div>
             <div class="talleres-container">
                 <!-- JS here -->
             </div>
         </section>
         <!-- Equipo -->
-        <section class="main-equipo" id="equipo">
-            <h2>Conoce nuestro equipo</h2>
+        <section class="main-equipo section" id="equipo">
+            <div class="title">
+                <div class="line"></div>
+                <h2>Conoce nuestra comunidad</h2>
+                <div class="line"></div>
+            </div>
             <div class="equipo-container">
                 <!-- JS here-->
             </div>
@@ -130,7 +156,7 @@
     <!-- Footer -->
     <footer class="footer">
         <!-- Footer listas -->
-        <div class="footer-container">
+        <div class="wrapper footer-container">
             <!-- Comunidad -->
             <nav class="container-comunidad">
                 <!-- Logo -->
