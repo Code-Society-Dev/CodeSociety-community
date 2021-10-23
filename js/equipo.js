@@ -43,7 +43,7 @@ const equipoArray = [{
     {
         id: "07",
         name: "Augusto Pecho",
-        pictureUrl: "../images/profile/joer9514.jpg",
+        pictureUrl: "https://media-exp1.licdn.com/dms/image/C5103AQFAIZ0Y53eIDg/profile-displayphoto-shrink_800_800/0/1516861321461?e=1640217600&v=beta&t=FfeSGTBqe6tnrsNzEDGOuROl-KbQIB0XydU9lis3TZI",
         imageAlt: "",
         profile: "https://www.linkedin.com/in/apechoch5394/"
     },
