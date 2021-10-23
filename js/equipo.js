@@ -1,16 +1,16 @@
 const equipoArray = [{
         id: "01",
         name: "Jhonny Barrios",
-    pictureUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQFKjmWnDREYug/profile-displayphoto-shrink_800_800/0/1610034581200?e=1640217600&v=beta&t=8hnywqK3aNtuqkG3wzTOZ_2tR7ZjINz5Xs547BsjwYc",
+        pictureUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQFKjmWnDREYug/profile-displayphoto-shrink_800_800/0/1610034581200?e=1640217600&v=beta&t=8hnywqK3aNtuqkG3wzTOZ_2tR7ZjINz5Xs547BsjwYc",
         imageAlt: "",
         profile: "https://www.linkedin.com/in/dev626/"
     },
     {
         id: "02",
         name: "Veronica Toriz",
-        pictureUrl: "../images/profile/joer9514.jpg",
+        pictureUrl: "https://cdn.discordapp.com/avatars/433679833239912449/1bc8569c4b44fb5644f87a83be43501b.png?size=128",
         imageAlt: "",
-        profile: "https://www.linkedin.com/in/joer9514"
+        profile: "https://www.linkedin.com/in/veronica-toriz-7bb045147"
     },
     {
         id: "03",
@@ -120,7 +120,7 @@ const equipoArray = [{
     {
         id: "18",
         name: "David Zuluaga",
-        pictureUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQEjBWgi9Dz5Jw/profile-displayphoto-shrink_800_800/0/1559962571501?e=1640217600&v=beta&t=6vyx5SaWWpDOU0mz6N6B-8wKw8hBQG87R4sE_9lXKvw",
+        pictureUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQHoANS-dNbeJQ/profile-displayphoto-shrink_800_800/0/1634172410181?e=1640217600&v=beta&t=tIM3EVeT_YabgT31AWDkXEdNWfVeYUidlQmRViri950",
         imageAlt: "Mentor",
         profile: "https://www.linkedin.com/in/erianvc/"
     },
@@ -193,37 +193,37 @@ const equipoArray = [{
         pictureUrl: "https://media-exp1.licdn.com/dms/image/C5603AQEcEGMtHY3qug/profile-displayphoto-shrink_800_800/0/1516977469651?e=1640217600&v=beta&t=0G21Nv22Z3GDzFYUGIjrexp1AUxW1a3JnEHJA5x_vHI",
         imageAlt: "Mentor",
         profile: "https://www.linkedin.com/in/frankmelian01/"
+    },
+    {
+        id: "29",
+        name: "Gian Marco Fernandez Horna",
+        pictureUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQFODTPcvW5oNw/profile-displayphoto-shrink_800_800/0/1516879919352?e=1640217600&v=beta&t=hivNJmchOjEa6JRHMD5UqhbqKXc64JYnI44rkGRden4",
+        imageAlt: "Mentor",
+        profile: "https://www.linkedin.com/in/gian-marco-fernandez-horna-42779a98/"
+    },
+    {
+        id: "30",
+        name: "John Edison Correa Laverde",
+        pictureUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQG4y3uA1mwY8w/profile-displayphoto-shrink_800_800/0/1621723016952?e=1640217600&v=beta&t=3mzgdalh_CpW5gR-0HvyT-ZLypovGvmh6-NC-JAiDco",
+        imageAlt: "Mentor",
+        profile: "https://www.linkedin.com/in/jecl29/"
+    },
+    {
+        id: "31",
+        name: "Romina Oliva",
+        pictureUrl: "https://media-exp1.licdn.com/dms/image/C4D03AQEwHDRQvej2uQ/profile-displayphoto-shrink_800_800/0/1616538239992?e=1640217600&v=beta&t=vAztZv46e5njp6H6GzBcyG4Dnc-Amcj461NAdSpzw0w",
+        imageAlt: "Mentor",
+        profile: "https://www.linkedin.com/in/romina-oliva-qa-jr/"
+    },
+    {
+        id: "32",
+        name: "Flavia Brañeiro",
+        pictureUrl: "https://media-exp1.licdn.com/dms/image/C4E03AQHu6xjUhrKDAg/profile-displayphoto-shrink_100_100/0/1585619159702?e=1640217600&v=beta&t=n8Ws4a2jfUjqsJ1RuZ5VV0QQymE1Lh2Bh8FRp_4j_30",
+        imageAlt: "Mentor",
+        profile: "https://www.linkedin.com/in/flaviabraneiro/"
     }
 
-
-    // Frank Melian
-    // https://media-exp1.licdn.com/dms/image/C5603AQEcEGMtHY3qug/profile-displayphoto-shrink_800_800/0/1516977469651?e=1640217600&v=beta&t=0G21Nv22Z3GDzFYUGIjrexp1AUxW1a3JnEHJA5x_vHI
-    // https://www.linkedin.com/in/frankmelian01/
-
-
-    // David Zuluaga
-    // https://media-exp1.licdn.com/dms/image/C4E03AQHoANS-dNbeJQ/profile-displayphoto-shrink_800_800/0/1634172410181?e=1640217600&v=beta&t=tIM3EVeT_YabgT31AWDkXEdNWfVeYUidlQmRViri950
-    // https://www.linkedin.com/in/david-zuluaga-404a9437/
-
-    // Gian Marco Fernandez Horna
-    // https://media-exp1.licdn.com/dms/image/C4E03AQFODTPcvW5oNw/profile-displayphoto-shrink_800_800/0/1516879919352?e=1640217600&v=beta&t=hivNJmchOjEa6JRHMD5UqhbqKXc64JYnI44rkGRden4
-    // https://www.linkedin.com/in/gian-marco-fernandez-horna-42779a98/
-
-    // John Edison Correa Laverde
-    // https://media-exp1.licdn.com/dms/image/C4E03AQG4y3uA1mwY8w/profile-displayphoto-shrink_800_800/0/1621723016952?e=1640217600&v=beta&t=3mzgdalh_CpW5gR-0HvyT-ZLypovGvmh6-NC-JAiDco
-    // https://www.linkedin.com/in/jecl29/
-
-    // Romina Oliva
-    // https://media-exp1.licdn.com/dms/image/C4D03AQEwHDRQvej2uQ/profile-displayphoto-shrink_800_800/0/1616538239992?e=1640217600&v=beta&t=vAztZv46e5njp6H6GzBcyG4Dnc-Amcj461NAdSpzw0w
-    // https://www.linkedin.com/in/romina-oliva-qa-jr/
-
-    // Axel Echevarría Piérola
-    // https://media-exp1.licdn.com/dms/image/C5603AQFat2eCmvk6pg/profile-displayphoto-shrink_800_800/0/1597800632821?e=1640217600&v=beta&t=1InQxNEt7HusUMshgdwEmoCtRQ9a5elW4GXNjVB1sew
-    // https://www.linkedin.com/in/axlpierola/
-
     // ROD
-    // Dorimei
-    // 
 
 ];
 
