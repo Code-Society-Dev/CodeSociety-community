@@ -449,4 +449,8 @@ body {
   .main-equipo {
     display: none;
   }
+  .cards .card, .eventos-container .eventos-figure {
+    width: 100%;
+    height: 100%;
+  }
 }

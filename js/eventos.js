@@ -1,17 +1,9 @@
-const eventosArray = [
-    {
-        id: 1,
-        pictureUrl: "../images/eventos/Daysi.png",
-        imageAlt: "eventos",
-        urlserver: "https://discord.gg/ZbaCcZkKNp"
-    },
-    {
-        id: 2,
-        pictureUrl: "../images/eventos/Jueves.png",
-        imageAlt: "eventos",
-        urlserver: "https://discord.gg/ZbaCcZkKNp"
-    }
-];
+const eventosArray = [{
+    id: 1,
+    pictureUrl: "../images/eventos/NSN.png",
+    imageAlt: "eventos",
+    urlserver: "https://discord.gg/ZbaCcZkKNp"
+}];
 
 
 let htmlCode1 = ``;
