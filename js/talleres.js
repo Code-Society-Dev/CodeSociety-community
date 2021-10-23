@@ -3,28 +3,28 @@ const talleresArray = [{
         title: "Software Development",
         pictureUrl: "../images/icons/software.png",
         imageAlt: "software, desarrollo, comunidad, code society",
-        urlServer: "https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect"
+        urlServer: "https://discord.gg/ZbaCcZkKNp"
     },
     {
         id: 2,
         title: "Inglés",
         pictureUrl: "../images/icons/english.png",
         imageAlt: "inglés, idiomas, lenguajes, code society",
-        urlServer: "https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect"
+        urlServer: "https://discord.gg/ZbaCcZkKNp"
     },
     {
         id: 3,
         title: "Cyber Seguridad",
         pictureUrl: "../images/icons/cyber-security.png",
         imageAlt: "cyber seguridad, seguridad informatica, redes, linux, code society",
-        urlServer: "https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect"
+        urlServer: "https://discord.gg/ZbaCcZkKNp"
     },
     {
         id: 4,
         title: "Control de Calidad",
         pictureUrl: "../images/icons/control-calidad.png",
         imageAlt: "control de calidad, software, mejores practicas, code society",
-        urlServer: "https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect"
+        urlServer: "https://discord.gg/ZbaCcZkKNp"
     }
 ];
 

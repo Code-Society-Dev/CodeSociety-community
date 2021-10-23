@@ -3,13 +3,13 @@ const eventosArray = [
         id: 1,
         pictureUrl: "../images/eventos/Daysi.png",
         imageAlt: "eventos",
-        urlserver: "https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect"
+        urlserver: "https://discord.gg/ZbaCcZkKNp"
     },
     {
         id: 2,
         pictureUrl: "../images/eventos/Jueves.png",
         imageAlt: "eventos",
-        urlserver: "https://discord.com/invite/VhsrVpRa?utm_source=Discord%20Widget&utm_medium=Connect"
+        urlserver: "https://discord.gg/ZbaCcZkKNp"
     }
 ];
 
