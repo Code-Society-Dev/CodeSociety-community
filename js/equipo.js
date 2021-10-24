@@ -242,7 +242,7 @@ equipoArray.forEach(function (singleEquipotObjects) {
         htmlCode3 +
         `
     <figure class="equipo-figure">
-        <a href="${singleEquipotObjects.profile}">
+        <a href="${singleEquipotObjects.profile}" target="_blank">
             <img class="equipo-img" loading="lazy" src="${singleEquipotObjects.pictureUrl}" alt="${singleEquipotObjects.imageAlt}">
         </a>
         <figcaption>
