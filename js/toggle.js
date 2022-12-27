@@ -1,5 +1,5 @@
 const toggle = document.querySelector(".figure-toggle");
-const menu = document.querySelector(".header-menu");
+const menu = document.querySelector(".menu-list");
 
 toggle.addEventListener("click", () => {
     menu.classList.toggle("visible");
