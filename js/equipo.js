@@ -281,5 +281,4 @@ equipoArray.forEach(function (singleEquipotObjects) {
 });
 
 const equipoCards = document.querySelector(".equipo-container");
-
-equipoCards.innerHTML = htmlCode3;
+// equipoCards.innerHTML = htmlCode3;

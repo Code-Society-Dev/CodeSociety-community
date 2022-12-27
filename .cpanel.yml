@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/csdev/community.codesociety.dev/
-    - index.html $DEPLOYPATH
-    - -R css $DEPLOYPATH
-    - -R images $DEPLOYPATH
-    - -R js $DEPLOYPATH
+    - / index.html $DEPLOYPATH
+    # / -R css $DEPLOYPATH
+    # / -R images $DEPLOYPATH
+    # / -R js $DEPLOYPATH

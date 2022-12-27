@@ -44,12 +44,11 @@ eventosArray.forEach(function (singleEventostObjects) {
         htmlCode1 +
         `
         <figure class="eventos-figure">
-            <a target="_blank" href="${singleEventostObjects.urlserver}"><img
-                class="eventos-img" loading="lazy" src="${singleEventostObjects.pictureUrl}" alt="${singleEventostObjects.imageAlt}"></a>
+            <a target="_blank" href="${singleEventostObjects.urlserver}"><img class="eventos-img" loading="lazy" src="${singleEventostObjects.pictureUrl}" alt="${singleEventostObjects.imageAlt}"></a>
         </figure>
         `;
 });
 
 const eventosCards = document.querySelector(".eventos-container");
 
-eventosCards.innerHTML = htmlCode1;
+// eventosCards.innerHTML = htmlCode1;
