@@ -23,9 +23,9 @@ const eventosArray = [
   // },
   {
     id: 3,
-    pictureUrl: "../images/eventos/Blockchain en AWS.png",
+    pictureUrl: "images/eventos/Blockchain en AWS.png",
     imageAlt: "Blockchain con AWS",
-    urlserver: "https://discord.gg/4MPexrTz?event=950381421422346250",
+    urlserver: "https://discord.gg/dpPfTJc3sC",
   },
   // {
   //   id: 3,
